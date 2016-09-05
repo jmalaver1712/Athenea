@@ -1,0 +1,2 @@
+C:\xampp\php\php.exe "C:\xampp\php\apigen.phar" generate --source "C:\xampp\htdocs\WEB\athenea" --destination "C:\xampp\htdocs\WEB\doc_athenea" --template-theme bootstrap --title "Athenea - Codigo documentado" --charset "UTF-8" --access-levels "public" --access-levels "protected" --access-levels "private"
+pause

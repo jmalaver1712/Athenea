@@ -1,0 +1,7 @@
+					
+					$Id_Con = $row['Id_Investigador'];
+					$edit = $conexion->query("SELECT * FROM investigadores WHERE Id_Investigador = '$Id_Con'")or die($mysqli->error);
+					$inv = mysql_fetch_assoc($edit);
+					$Nombre = $inv['Nombres'];
+					$Id_Red = $row['Id_Red'];
+					$edit_sem = $conexion->query("UPDATE redes SET Nombre_Lider = '$Nombre' WHERE Id_Red = '$Id_Red'")or die($mysqli->error);
